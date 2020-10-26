@@ -1,0 +1,2 @@
+HTTPS_PORTAL_STAGE=local    # local | production
+DOMAIN=guacamole.test
