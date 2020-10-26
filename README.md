@@ -13,13 +13,13 @@ You need a working **docker** installation and **docker-compose** running on you
 Clone the GIT repository and start guacamole:
 
 ~~~bash
-git clone "https://github.com/boschkundendienst/guacamole-docker-compose.git"
+git clone "https://github.com/ijaureguialzo/guacamole-docker-compose.git"
 cd guacamole-docker-compose
 ./prepare.sh
-docker-compose up -d
+make start
 ~~~
 
-Your guacamole server should now be available at `https://ip of your server:8443/`. The default username is `guacadmin` with password `guacadmin`.
+Your guacamole server should now be available at `https://ip_of_your_server/`. The default username is `guacadmin` with password `guacadmin`.
 
 ## Details
 To understand some details let's take a closer look at parts of the `docker-compose.yml` file:
