@@ -1,2 +1,4 @@
 HTTPS_PORTAL_STAGE=local    # local | production
 DOMAIN=guacamole.test
+POSTGRES_USER=guacamole_user
+POSTGRES_PASSWORD=ChooseYourOwnPasswordHere1234
